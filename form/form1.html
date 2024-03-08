@@ -9,27 +9,89 @@
 </head>
 
 <body>
-        <div>
-            <h1>freeCodeCamp Survey Form</h1>
-            <p>Thank you for taking the time to help us improve the platform
-            </p>
-        </div>
-        <form action="">
-            <div class="container">
+
+    <div>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform
+        </p>
+    </div>
+    <form action="">
+        <div class="container">
             <div>
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="enter your name" required >
+                <input type="text" id="name" placeholder="enter your name" required>
+            </div>
+
+            <div>
+                <label for="number">Age</label>
+                <input type="number" id="number" placeholder="Age" required>
             </div>
             <div>
-            <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required> 
-             </div>
-             <div>
-             <label for="number">Age</label> 
-             <input type="number" id="number" placeholder="Age">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div>
+                <label for="language">Select your Favorite Programming Language:</label>
+                <select class="div-select" name="languages" id="languages">
+                    <option disabled selected value="Select an option">Select an option</option>
+                    <option class="select-option" value="">Lava</option>
+                    <option class="select-option" value="">Python</option>
+                    <option class="select-option" value="">C++</option>
+                    <option class="select-option" value="">C</option>
+                    <option class="select-option" value="">JavaScript</option>
+                </select>
+            </div>
+            <div class="div-checkbox">
+                <label class="div-level-checkbox" for="">Which Country You Belongs:</label>
+                <label for="country">
+                    <input type="checkbox" name="India" id="country" class="checkbox">INDIA
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="China" id="country" class="checkbox">CHINA
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="China" id="country" class="checkbox">AMERICA
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="China" id="country" class="checkbox">JAPAN
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="China" id="country" class="checkbox">NEPAL
+                </label>
+            </div>
+            <div>
+                <p>Select your current age:</p>
+                <label for="">
+                    <input type="radio" name="age" id="age" checked>15-25 year
+                </label>
+                <label for="">
+                    <input type="radio" name="age" id="age">25-35 year
+                </label>
+                <label for="">
+                    <input type="radio" name="age" id="age">35-45 year
+                </label>
+                <label for="">
+                    <input type="radio" name="age" id="age">45-55 year
+                </label>
+                <label for="">
+                    <input type="radio" name="age" id="age">55-65 year
+                </label>
+            </div>
+            <div>
+                <label for="comment">Any comments or suggestions?</label>
+                <textarea class="form-textarea" name="comments" id="comment" cols="30" rows="6"
+                    placeholder="Enter your Ccmment here"></textarea>
+            </div>
+            <div class="div-submit">
+                <input class="input-submit" type="submit" value="submit" id="submit" required>
             </div>
         </div>
-        </form>
+
+    </form>
 </body>
 
 </html>
