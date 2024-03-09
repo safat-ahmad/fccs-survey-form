@@ -1,0 +1,64 @@
+body {
+    padding: 20px;
+    background-color: rgb(201, 229, 229);
+}
+
+.first-div {
+    background-color: aqua;
+    border: 2px solid black;
+    max-width: fit-content;
+    height: 40%;
+    margin-left: 34%;
+    margin-bottom: 40px;
+    outline-offset: 10px;
+    outline: 10px solid rgb(155, 116, 116);
+    text-decoration: 5px green dotted underline;
+    padding: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+
+}
+
+.second-div {
+    border: 2px solid black;
+    outline: 10px solid rgb(156, 76, 76);
+    height: 40%;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    outline-offset: 10px;
+    background-color: aqua;
+    text-align-last: center;
+    text-decoration: 4px double underline;
+
+}
+
+.div-para {
+    border: 2px solid black;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-top: 40px;
+    height: 40%;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    margin-left: 19%;
+    outline: 10px solid gray;
+    outline-offset: 10px;
+    background-color: aqua;
+    text-align-last: center;
+    text-decoration-line: line-through;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 30px;
+    border: 5px solid black;
+}
