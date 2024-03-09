@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="form1.css">
+    <title>make form using HTML & CSS</title>
+    <link rel="stylesheet" href="./form1.css">
 </head>
 
 <body>
 
-    <div>
-        <h1>freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform
+    <div class="first-div">
+        <h1 class="head">freeCodeCamp Survey Form</h1>
+        <p class="paragraph">Thank you for taking the time to help us improve the platform
         </p>
-    </div>
+    </div class="div-form">
     <form action="">
         <div class="container">
             <div>
@@ -46,38 +46,33 @@
                 </select>
             </div>
             <div class="div-checkbox">
-                <label class="div-level-checkbox" for="">Which Country You Belongs:</label>
+                <label for="">Which Country You Belongs:</label>
                 <label for="country">
-                    <input type="checkbox" name="India" id="country" class="checkbox">INDIA
-                </label>
+                    <input type="checkbox" name="India" id="country">INDIA</label>
                 <label for="checkbox">
-                    <input type="checkbox" name="China" id="country" class="checkbox">CHINA
-                </label>
+                    <input type="checkbox" name="China" id="country">CHINA</label>
                 <label for="checkbox">
-                    <input type="checkbox" name="China" id="country" class="checkbox">AMERICA
-                </label>
+                    <input type="checkbox" name="China" id="country">AMERICA</label>
                 <label for="checkbox">
-                    <input type="checkbox" name="China" id="country" class="checkbox">JAPAN
-                </label>
+                    <input type="checkbox" name="China" id="country">JAPAN</label>
                 <label for="checkbox">
-                    <input type="checkbox" name="China" id="country" class="checkbox">NEPAL
-                </label>
+                    <input type="checkbox" name="China" id="country">NEPAL</label>
             </div>
             <div>
                 <p>Select your current age:</p>
-                <label for="">
-                    <input type="radio" name="age" id="age" checked>15-25 year
+                <label for="age">
+                    <input class="input-age" type="radio" name="age" id="age" checked>15-25 year
                 </label>
-                <label for="">
+                <label for="age">
                     <input type="radio" name="age" id="age">25-35 year
                 </label>
-                <label for="">
+                <label for="age">
                     <input type="radio" name="age" id="age">35-45 year
                 </label>
-                <label for="">
+                <label for="age">
                     <input type="radio" name="age" id="age">45-55 year
                 </label>
-                <label for="">
+                <label for="age">
                     <input type="radio" name="age" id="age">55-65 year
                 </label>
             </div>
@@ -86,7 +81,7 @@
                 <textarea class="form-textarea" name="comments" id="comment" cols="30" rows="6"
                     placeholder="Enter your Ccmment here"></textarea>
             </div>
-            <div class="div-submit">
+            <div>
                 <input class="input-submit" type="submit" value="submit" id="submit" required>
             </div>
         </div>
