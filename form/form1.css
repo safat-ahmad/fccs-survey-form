@@ -26,11 +26,11 @@ body {
 
 }
 
-label {
+/*label {
     display: block;
     text-align: left;
     padding-left: 4rem;
-}
+}*/
 
 input {
     width: 80%;
@@ -75,5 +75,6 @@ p {
 
 .div-checkbox{
     margin-left:2rem;
+    
     
 }
